@@ -2,3 +2,4 @@
 
 chef de projet : Abou
 [François] - Développeur Frontend
+{John} - Développeur CSS
