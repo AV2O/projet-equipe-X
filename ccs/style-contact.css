@@ -1,0 +1,84 @@
+/* Style général */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a:hover {
+  color: #6a1b9a;
+}
+
+/* Contenu principal */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Formulaire */
+form {
+  background-color: #eaeaea;
+  padding: 25px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Labels */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Champs de saisie */
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a1b9a;
+}
+
+/* Bouton */
+button {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a148c;
+}
